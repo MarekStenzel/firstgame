@@ -5,16 +5,21 @@ body {
     justify-content: center;
 }
 .game-board {
-    margin: 25px auto;
+    margin: 30px auto;
     position: relative;
-    background: aqua;
+    background: aquamarine;
     overflow: hidden;
-    width: 640px;
-    height: 480px;
+    width: 660px;
+    height: 444px;
     border: 2px solid #ddd;
 }
 .game-tile {
     position: absolute;
     cursor: pointer;
-    width
+    width: 100px;
+    height: 100px;
+    background: cadetblue center center no-repeat;
+}
+.game-score{
+    text-align: center;
 }
